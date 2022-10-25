@@ -1,116 +1,213 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> I'm suhaimee kaje</title>
-     <link rel="stylesheet" href="CSS\styles.css">
-  <link rel="icon" href="img/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>I'm suhaimee kaje</title>
+<link rel="icon" href="images/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
-  </head>
-  <body>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mitr&family=Noto+Sans+Thai&family=Prompt&family=Sriracha&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9b15a0fc25.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
+<body>
 
-    <nav class="navbar bg-light">
-      <div class="container">
-        <z class="navbar-brand" href="#">
-          <img src="img/favicon.ico" alt="Bootstrap" width="30" height="24">
-        </z>
-      </div>
+  <section id="title">
+         <div class="container-fluid">
+    <!-- Nav Bar -->
+    <!-- ########## -->
+    <nav class="navbar navbar-dark ">
+
+      <a class="navbar-brand" href="index.html">
+        <div class="logo-image">
+              <img src="images/favicon.ico" class="img-fluid">
+        </div>
+</a>
+<!-- ########################################################### -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+
     </nav>
 
+<!-- ############################################################################ -->
+    <!-- Title -->
+<div class="row">
 
+    <div class= "col-lg-6">
+      <h1>RESUME</h1>
 
-    <!-- ################################### -->
-<div class="top-container">
-  <img class="top-cloud" src="img\cloud.png" alt="" >
-  <img class="sun" src="img/sun.png" alt="">
-
-<h1>Suhaimee kaje</h1>
-<!-- <h2>สาขาเทคโนโลยีดิจิตัลและสารสนเทศ</h2> -->
-  <!-- <h2> คณะวิศวกรรมศาตร์และเทโนโลยีดิจิตัลอละสารสนเทศ</h2> -->
-<h2>  Panyapiwat Institute of Management</h2>
-<img class="bottom-cloud" src="img/cloud.png" alt="">
-<img src="img/tree.png" alt="#"  width="100px" height="100px" width=10% ;>
-<img src="img/mountain.png" alt="#"  width= 30% ;>
-<img src="img/forest.png" alt="#"  width="100px" height="100px"  width=10% ; >
-
-
-<!-- ############################################## -->
-<div class="middle-container">
-     <h2>Hello World!</h2>
-     <p> Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
-
-  <div class="profile">
-
-    <img class="modified" src="img/modified.png" alt=""width= 30%>
-    <a>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctioLorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor,Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctioLorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio</a>
-
+    <a class="btn btn-outline-light btn-lg" href="https://shorturl.asia/lSDo1" role="button">คลิก!</a>
   </div>
+
+
+    <div class= "col-lg-6">
+      <img src="images\modified.png" alt="Suhaimee kaje image of panyapiwat"widt="200" height="200"
+    </div>
 </div>
-<hr />
-<!-- ########################################################3 -->
-   <div class="bottom-container" >
-     <div class="skills">
-       <h2>My Skills</h2>
-       <div class="skill-row">
-         <p>Lorem & Ipsum</p>
-         <img class="skin" src="img/java.png" alt="">
+    </div>
+  </section>
 
-         <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-       </div>
+<!-- ######################################################################################### -->
+  <!-- Features -->
 
+  <section id="features">
+     <div class="a">
 
-     </div>
-</div>
-<!-- #####################################################################3 -->
-<div class="bottom-container1" >
-  <div class="skills">
-    <h2>My Skills</h2>
-    <div class="skill-row">
+    <h2>Personal details</h2>
+    <p1>Mr.Suhaimee kaje </p1>
+    <p1>Nickname je</p1>
+    <p>Religion : islam</p>
+    <p>Nationality : Thai</p>
+    <p>Birth Date : Jan 3, 2003 (19yrs.)</p>
+    <p1>Pattani 94160, Thailand)</p1>
 
-      <img class="skin" src="img/java.png" alt="">
-<p>Lorem & Ipsum</p>
-      <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
     </div>
 
+  </section>
 
+<!-- ############################################################################################# -->
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+     <div class="a">
+
+
+    <h2>Contact Details</h2>
+     <p>Facabook : Suhaimee kajae </p>
+     <p>phone : 0987231910 </p>
+     <p>Gmail : Suhaimee499@gmail.com </p>
+     <p>website : https://shorturl.asia/5bRZ9 </p>
+       </div>
+  </section>
+
+<!-- ############################################################################################### -->
+  <!-- Press -->
+
+  <section id="press">
+ <div class="a">
+
+    <h2>EDUCATION</h2>
+    <p1 style="padding-left : 100px"> Mr.Suhaimee kaje  </p1>
+    <p1>Nickname je</p1>
+    <p style="padding-left : 100px">Panyapiwat Institute of Management</p>
+    <p style="padding-left : 100px">Faculity : Engineering and Technology</p>
+    <p style="padding-left : 100px">Gpax 3.40</p>
+
+   </div>
+  </section>
+
+<!-- ###################################################################################### -->
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <div class="a">
+
+    <h2>skills</h2>
+         <div class="tb1">
+
+
+    <table border="0" style="height: 150px";>
+        <td><p>premiere pro 🟢🟢🟢🟢🟢</p></td>
+        <td><p>photoshop 🟢🟢🟢🟢🔘</p></td>
+            </tr> <tr>
+        <td><p>Illustrator 🟢🟢🔘🔘🔘</p></td>
+        <td><p>Canvas 🟢🟢🟢🟢🟢</p></td>
+    </table>
+
+         </div>
+
+<div class="tb2">
+
+     </div>
+         <h2>java programmer</h2>
+         <!-- <p>5 Matches Per Day</p>
+         <p>10 Messages Per Day</p>
+         <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+     </div>
+
+    <h3>Silver</h3>
+    <h2>$49 / mo</h2>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Gold</h3>
+    <h2>$99 / mo</h2>
+    <p>Pirority Listing</p>
+    <p>Unlimited Matches</p>
+    <p>Unlimited Messages</p>
+    <p>Unlimited App Usage</p>
+    <button type="button">Sign Up</button>
   </div>
+  </section>
 
 
+  <! Call to Action -->
+
+  <!-- <section id="cta">
+    <img src="images/tnw.png" alt="tnw-logo">
+    <img src="images/bizinsider.png" alt="biz-insider-logo">
+    <img src="images/mashable.png" alt="mashable-logo">
 
 
+    <h3>มาร่วมกันปลูกต้นไม้ หรือต้นโอ๊คเพื่ออนุรักษ์สิ่งแวดล้อม.</h3>
+    <button type="button">Download</button>
+    <button type="button">Download</button>
+
+  </section> -->
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Suhaimee499@gmail.com</p>
+
+  </footer>
 
 
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-  </body>
 </html>
