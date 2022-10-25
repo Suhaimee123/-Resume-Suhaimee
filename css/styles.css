@@ -1,8 +1,18 @@
-#title{
-  background-color: #0077b6 ;
+
+
+
+body{
+
+ /* background: linear-gradient(180deg,    #0050C4, #0079DC,#009DDE,#00C0D0,#00DFBB ); */
+ background: linear-gradient(180deg,    #00DFBB, #00C7D0,#00ADD9,#0090D0,#4B71B7 );
+ webkit-background-clip: text;
+ webkit-text-fill-color: transparent;
+
 }
+a{
 
-
+  color:#000000;
+}
 h1{
 
   font-family: 'Mitr', sans-serif;
@@ -17,11 +27,11 @@ h1{
 #features{
 
     text-align: center;
-background-color: #0096c7;
+
 }
 h2{
   font-family: 'Sriracha', cursive;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 p1{
@@ -32,24 +42,25 @@ p{
   margin-top:20px;
   line-height: 1.5;
   margin-bottom: 0px;
+  padding-left : 100px
 
 }
 
 #testimonials{
-  background-color: #00b4d8;
+
   padding-left: 100px;
 
 }
 
 #press{
 
-  background-color: #48cae4;
+
   padding-left: 100px;
 
 }
 #pricing{
 
-  background-color: #48cae4;
+
   padding-left: 100px;
 
 
@@ -64,7 +75,14 @@ padding-bottom: 20px;
 
 }
 .tb2{
+  margin-left: 150px;
+
+}
+h3{
+  font-family: 'Sriracha', cursive;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.bt1{
   text-align: center;
-
-
 }
