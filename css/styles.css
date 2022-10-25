@@ -1,0 +1,70 @@
+#title{
+  background-color: #0077b6 ;
+}
+
+
+h1{
+
+  font-family: 'Mitr', sans-serif;
+  font-size: 6rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 4% 15% ;
+}
+
+#features{
+
+    text-align: center;
+background-color: #0096c7;
+}
+h2{
+  font-family: 'Sriracha', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+p1{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+p{
+  margin-top:20px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+
+}
+
+#testimonials{
+  background-color: #00b4d8;
+  padding-left: 100px;
+
+}
+
+#press{
+
+  background-color: #48cae4;
+  padding-left: 100px;
+
+}
+#pricing{
+
+  background-color: #48cae4;
+  padding-left: 100px;
+
+
+}
+.a{
+padding-bottom: 20px;
+}
+
+.tb1{
+
+    margin-bottom: 20px;
+
+}
+.tb2{
+  text-align: center;
+
+
+}
