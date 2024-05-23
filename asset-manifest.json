@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Suhaimee123/-Resume-Suhaimee/static/css/main.abf871ad.css",
+    "main.js": "/Suhaimee123/-Resume-Suhaimee/static/js/main.c178453b.js",
+    "static/js/151.e22e7b2d.chunk.js": "/Suhaimee123/-Resume-Suhaimee/static/js/151.e22e7b2d.chunk.js",
+    "static/media/Resume Suhaimee.png": "/Suhaimee123/-Resume-Suhaimee/static/media/Resume Suhaimee.94db1c21684890223e0f.png",
+    "index.html": "/Suhaimee123/-Resume-Suhaimee/index.html",
+    "main.abf871ad.css.map": "/Suhaimee123/-Resume-Suhaimee/static/css/main.abf871ad.css.map",
+    "main.c178453b.js.map": "/Suhaimee123/-Resume-Suhaimee/static/js/main.c178453b.js.map",
+    "151.e22e7b2d.chunk.js.map": "/Suhaimee123/-Resume-Suhaimee/static/js/151.e22e7b2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abf871ad.css",
+    "static/js/main.c178453b.js"
+  ]
+}
